@@ -75,4 +75,35 @@ section{
     text-align: justify;
     color: #0E2431;
   }
-  
+  footer{
+    background:black;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: max-content;
+  }
+  footer .text span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+  }
+  footer .text span a{
+    font-weight: 500;
+    color: #FFF;
+  }
+  footer .text span a:hover{
+    text-decoration: underline;
+  }
+  /* Scroll TO Top Button CSS */
+  .scroll-button a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background:#9b29c9;
+    padding: 7px 12px;;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    display: none;
+  }
