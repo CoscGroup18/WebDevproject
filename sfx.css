@@ -75,25 +75,7 @@ section{
     text-align: justify;
     color: #0E2431;
   }
-  footer{
-    background:black;
-    padding: 15px 0;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    height: max-content;
-  }
-  footer .text span{
-    font-size: 17px;
-    font-weight: 400;
-    color: #fff;
-  }
-  footer .text span a{
-    font-weight: 500;
-    color: #FFF;
-  }
-  footer .text span a:hover{
-    text-decoration: underline;
-  }
+  
   /* Scroll TO Top Button CSS */
   .scroll-button a{
     position: fixed;
@@ -107,3 +89,54 @@ section{
     box-shadow: rgba(0, 0, 0, 0.15);
     display: none;
   }
+
+  *footer*/
+.col_white_amrc { color:#FFF;}
+footer { 
+    width:100%; 
+    background-color:black;
+    min-height:250px; 
+    padding:10px 0px;}
+
+.pt2 { 
+    padding-top:40px ; 
+    margin-bottom:20px ;}
+
+footer p { 
+    font-size:13px; 
+    color:#CCC; 
+    padding-bottom:0px; 
+    margin-bottom:8px;}
+
+.mb10 { padding-bottom:15px ;
+width: 15cm;}
+
+.fleft { float:right;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {
+    margin:0px; 
+    list-style-type:none; 
+    padding:0px;
+    color: #999;
+font-size: 12.5px;}
+    .footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+
+
+
+
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
