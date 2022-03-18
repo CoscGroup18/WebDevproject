@@ -118,8 +118,8 @@ width: 15cm;}
     margin:0px; 
     list-style-type:none; 
     padding:0px;
-    color: #999;
-font-size: 12.5px;}
+    color: rgb(185, 174, 174);
+font-size: 12.9px;}
     .footer_ul2_amrc li p { display:table; }
 .footer_ul2_amrc li a:hover { text-decoration:none;}
 .footer_ul2_amrc li i { margin-top:5px;}
