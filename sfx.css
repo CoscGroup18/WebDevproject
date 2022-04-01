@@ -15,15 +15,94 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #9b29c9;
 }
+
+/* Navigation bar CSS */
+nav{
+  position: fixed;
+ 
+  width: 100%;
+  padding: 20px 0;
+ 
+  transition: all 0.3s ease;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav.sticky{
+  background: #9b29c9;
+  padding: 13px 0;
+}
+nav .navbar{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav .navbar .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #9b29c9;
+}
+nav.sticky .navbar .logo a{
+  color: #fff;
+}
+nav .navbar .menu{
+  display: flex;
+  position: relative;
+}
+nav .navbar .menu li{
+  list-style: none;
+  margin: 0 8px;
+}
+.navbar .menu a{
+  font-size: 18px;
+  font-weight: 500;
+  color: #9b29c9;
+  padding: 6px 0;
+  transition: all 0.4s ease;
+}
+.navbar .menu a:hover{
+  color: #9b29c9;
+}
+nav.sticky .menu a{
+  color: #FFF;
+}
+nav.sticky .menu a:hover{
+  color: #0E2431;
+}
+
+
+
+nav .menu-btn,
+.navbar .menu .cancel-btn{
+  position: absolute;
+  color: #fff;
+  right: 30px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
+}
+nav .menu-btn{
+  color: #4070f4;
+}
+nav.sticky .menu-btn{
+  color: #FFF;
+}
+.navbar .menu .menu-btn{
+  color: #fff;
+}
+/*societies page styles*/
 section{
     padding-top: 40px;
+    /*background-image: */
   }
   section .content{
     width: 90%;
     margin: 40px auto;
     font-family: 'Poppins', sans-serif;
   }
-  .about .about-details{
+  .youth .youth-details .svp .svp-details .lgm .lgm-details .sh .sh-details{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,13 +137,13 @@ section{
   }
   
  
-  .about-details .right{
+  .youth-details .right .svp-details .right .lgm-details .right .sh-details .right{
       margin-left: 50px;
   
     width: 100%;
   }
   
-  .about-details .right p{
+  .youth-details .right p .svp-details .right p .lgm-details .right p .sh-details .right p{
     text-align: justify;
     color: #0E2431;
   }
