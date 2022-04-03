@@ -27,7 +27,7 @@
         <li><a href="http://webenlance.com">History</a></li>
         <li><a href="http://webenlance.com">Societies</a></li>
         <li><a href="http://webenlance.com">Sunday School</a></li>
-        <li><a href="http://webenlance.com">Prayers</a></li>
+        <li><a href="./Prayers.php">Prayers</a></li>
         <li><a href="http://webenlance.com">Calender</a></li>
         <li><a href="http://webenlance.com">Contact Us</a></li>
           <div class="cancel-btn">
