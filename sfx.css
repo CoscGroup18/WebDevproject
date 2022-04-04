@@ -93,9 +93,10 @@ nav.sticky .menu-btn{
   color: #fff;
 }
 /*societies page styles*/
+
 section{
     padding-top: 40px;
-    /*background-image: */
+    background-image: url('./sfx\ images/new2.jpg');
   }
   section .content{
     width: 90%;

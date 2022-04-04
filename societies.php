@@ -15,9 +15,10 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
    </head>
 <body>
+
+    
 <div class="scroll-button">
-    <a href="#youth"><i 
-      c0.lass="fas fa-arrow-up"></i></a>
+    <i c00.lass="fas fa-arrow-up"></i></a>
   </div>
   <nav>
     <div class="navbar">
@@ -108,7 +109,7 @@
         
         <p>
           The Legion of Mary associated to St. Francis Xavier’s Church – Angulana was started in 7th October 1970 – on the day of the feast of Our Lady of Rosary.<br><br>
-Their main focus is to provide the physical and very specially the spiritual support. To provide this they visit families and make them meet the Priest if they are in need, guide the children who have gone astray to the Sunday school, help the Rev. Sisters to take the Holy Communion to the sick, arrange prayer services at sick peoples’ houses.  
+           Their main focus is to provide the physical and very specially the spiritual support. To provide this they visit families and make them meet the Priest if they are in need, guide the children who have gone astray to the Sunday school, help the Rev. Sisters to take the Holy Communion to the sick, arrange prayer services at sick peoples’ houses.  
 
         </p>
         <div class="button">
