@@ -82,21 +82,34 @@ body {
 
 .contact-titles {
     margin-top: 50px;
-    color: #008106;
+    color: black;
 }
 
 .title-head {
-    color: #184d00;
+    color: purple;
     font-weight: 800;
 }
 
 .sunday-school-container {
-    background: #bdbdbd;
+    background: white;
     border: #e2ddd2 1px solid;
     padding: 40px;
     border-radius: 10px;
     width: 70%;
 }
+
+.sunday-school-container  .logo a{
+    color:black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.sunday-school-container .logo a span {
+    color: purple;
+    transition: all 0.3s ease;
+  }
+.sunday-school-container .sticky logo a span{
+    color: white;
+  }
 
 .upcoming-events-conatiner {
     width: 20%;

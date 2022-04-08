@@ -53,12 +53,6 @@
   margin: 0;
 }
 
-/* Add a red background color to navigation links on hover */
-/* .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color:rgb(247, 248, 248);
-} */
-
-/* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
   position: absolute;
@@ -91,6 +85,7 @@ a:hover {
 .subnav:hover .subnav-content {
   display: block;
 }
+
 /*societies page styles*/
 
 section{
@@ -102,7 +97,7 @@ section{
     margin: 40px auto;
     font-family: 'Poppins', sans-serif;
   }
-  .youth .youth-details .svp .svp-details .lgm .lgm-details .sh .sh-details .mass .mass-details .novena .novena-details .hymns .hymns-details{
+   .mass .mass-details .novena .novena-details .hymns .hymns-details{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -138,17 +133,28 @@ section{
   }
   
  
-  .youth-details .right .svp-details .right .lgm-details .right .sh-details .right .novena .novena-details .right .hymns .hymns-details .right{
+  .mass .mass-details .right.novena .novena-details .right .hymns .hymns-details .right{
       margin-left: 50px;
   
     width: 100%;
   }
   
-  .youth-details .right p .svp-details .right p .lgm-details .right p .sh-details .right p .novena-details .right p .hymns-details .right p{
+ .mass-details .right p .novena-details .right p .hymns-details .right p{
     text-align: justify;
     color: #0E2431;
   }
-
+  .content .logo a{
+    color:black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.content .logo a span{
+    color: purple;
+    transition: all 0.3s ease;
+  }
+.content .sticky   .logo a span{
+    color: white;
+  }
   
   /* Scroll TO Top Button CSS */
   .scroll-button a{
@@ -183,7 +189,9 @@ section{
 .celebrant {
   color: darkgreen;
 }
-  *footer*/
+
+
+  /*footer*/
 .col_white_amrc { color:#FFF;}
 footer { 
     width:100%; 

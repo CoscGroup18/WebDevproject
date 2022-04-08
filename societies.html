@@ -3,10 +3,13 @@
     <meta charset="UTF-8">
     <title> Socities</title>
     <link rel="stylesheet" href="sfx.css">
+    <link rel="stylesheet" href="style.css">
+    
     <!-- FontawesomeLink -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     <script src="sfx.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
@@ -14,17 +17,18 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
    </head>
-<body >
+<body onload="blinker();">
 
     
 <div class="scroll-button">
     <i c00.lass="fas fa-arrow-up"></i></a>
   </div>
+
   <div class="navbar">
    <a href="Home.html">Home</a>
    <a href="History.html">History</a>
    <div class="subnav">
-     <button class="subnavbtn"><a href="societies.php">Societies <i class="fa fa-caret-down"></i></button>
+     <button class="subnavbtn"><a href="societies.html">Societies <i class="fa fa-caret-down"></i></button>
       <div class="subnav-content">
        <a href="#youth">Youth</a>
        <a href="#svp">SVP</a>
@@ -44,20 +48,15 @@
     </div>
   </div>
   
-  <a href="#calender">Calender</a>
+  <a href="Calender.html">Calender</a>
   <a href="contact-view.html">Contact us</a>
 </div>
   
 
   <section class="youth" id="youth">
-    <div class="content">
-      <div class="title"><span>Society of Youth</span></div>
-    <div class="youth-details">
-    
-      
-      <div class="right">
-        
-        <p>
+    <div class="page-content">
+      <div class="sunday-school-container">
+        <div class="logo"><a href="#">Youth<span> Society</span></a></div>
             The Society of the Youth has played a significant role in the church since its inception. Armoured under the spiritual guidance of the Parish Priests, the Youth took the lead in organizing every ceremony in the church.<br><br>
     
             It is with great pride the elders today who were the then youth point to the fact that they served as Altar Servers for the Sacrifice of the Mass in the 1950s. Rising and falling, the youth devoted their time and labour to build the church. Especially during the 1980s and 1990s, the Church Youth Society did a very active and indelible service for the construction of the demolished church building, and they worked extensively towards the celebration of the 120-th church feast in 1990 and the 125-th Jubilee in 1995.<br><br>
@@ -68,24 +67,29 @@
             Rev. Fr. Terrence Bodiyabaduge, the then Parish Priest re-opened the formerly closed religious shop (Kontha Kadaya) in the church, and handover its function to the Youth Society, and now they are successfully running it.<br><br>
             
             At present our youth society, which is made up of about 40 members, hopes to carry out various projects for the betterment of the church in the future, and we strongly believe that the prayers of our Patron Saint will always be there for us.
-        </p>
-        <div class="button">
-          
-        </div>
+        </p> 
       </div>
-    </div>
+      <div class="upcoming-events-conatiner">
+        <div id="blink"> <h2>Upcoming Events</h2></div>
+         <img class="img-common" src="Images/img02.jpg" alt="Vice Principal - Ms. Ayesha Fernando">
+         <p class="content-of-upcoming-events">ලේතාරේ ඉරුදින - චාතාරික සමය 4 ඉරුදින<br> <a href="https://www.facebook.com/111699733639584/posts/503483247794562/">More details..</a></p>
+         <img class="img-common" src="Images/img01.jpg" alt="Vice Principal - Ms. Ayesha Fernando">
+         <p class="content-of-upcoming-events">ලුනාව දේවස්තානයේ ගීතිකා කණ්ඩායම විසින් සංවිධනය කරනු ලබන "පසන් ගායනයක්" දේවස්ථාන භුමීයේදී පැවැත්විනි.<br><a href="https://www.facebook.com/111699733639584/posts/509496700526550/">More details...</a></p>
+         <img class="img-common" src="Images/img03.jpg" alt="Vice Principal - Ms. Ayesha Fernando">
+         <p class="content-of-upcoming-events">පූජා සහයක දරුවන් සදහා වැඩමුලුව (අගුලාන ලුනාව)<br><a href="https://www.facebook.com/111699733639584/posts/503428594466694/">More details...</a></p>
+         <h3 class="contact-titles"><strong class="title-head">Email</strong> : sfxangulana@gmail.com</h3>
+         
+     </div>
     </div>
   </section>
 
+  
+
   <section class="svp" id="svp">
-    <div class="content">
-      <div class="title"><span>St Vincent de Paul Society</span></div>
-    <div class="svp-details">
-    
-      
-      <div class="right">
-        
-        <p>
+    <div class="page-content">
+      <div class="sunday-school-container">
+          
+        <div class="logo"><a href="#">st Vincent de Paul<span> Society</span></a></div>
           Society of was founded by the then Parish Priest late Rev. Fr. Nimal Ponweera on 16th November 1987, and since then our society has been actively working for 34 years.<br><br>
 
           We all have the absolute conviction that the little services we do for the families in the Angulana community are so great before God.<br><br>
@@ -96,56 +100,40 @@
           The general objective of our society is to grow further from the current number of 10 members, and to provide relief and comfort to all people of our community who are in need through spiritual and physical precepts.
           At last but not least we ask for the blessings of God on all those who support us.
           
-        </p>
-        <div class="button">
-          
-        </div>
+        </p> 
       </div>
-    </div>
+     
     </div>
   </section>
 
   <section class="lgm" id="lgm">
-    <div class="content">
-      <div class="title"><span>The Legion of Mary</span></div>
-    <div class="lgm-details">
-    
-      
-      <div class="right">
+    <div class="page-content">
+      <div class="sunday-school-container">
         
-        <p>
+        <div class="logo"><a href="#">The legion of<span> Mary</span></a></div>
+        
+        
           The Legion of Mary associated to St. Francis Xavier’s Church – Angulana was started in 7th October 1970 – on the day of the feast of Our Lady of Rosary.<br><br>
            Their main focus is to provide the physical and very specially the spiritual support. To provide this they visit families and make them meet the Priest if they are in need, guide the children who have gone astray to the Sunday school, help the Rev. Sisters to take the Holy Communion to the sick, arrange prayer services at sick peoples’ houses.  
 
-        </p>
-        <div class="button">
-          
+          </p> 
         </div>
+        
       </div>
-    </div>
-    </div>
   </section>
 
   <section class="sh" id="sh">
-    <div class="content">
-      <div class="title"><span>The Sacred Heart Captol</span></div>
-    <div class="lgm-details">
-    
-      
-      <div class="right">
-        
-        <p>
+    <div class="page-content">
+      <div class="sunday-school-container">
+        <div class="logo"><a href="#">Sacred Heart<span> Society</span></a></div>
           The Society of the Sacred Heart of our church was established by late Rev. Fr. Edward Ravelpulle on 23rd June 1995. The purpose for establishing this society was to nourish the souls of the faithful of the church. In the beginning the president was Mrs. Eda Fonseka, Vice President was Mrs. Tethla Peiris, Secretary was Mrs. Catherine Fernando, and Treasurer was Mrs. Senaratne.<br><br>
           To accomplish the purpose of establishment which is to uplift the spiritual life of the faithful, the society gather on the first Fridays of every month and chant the Sacred Hour. Then along with the Priest, they take part in the Eucharistic Adoration and Benediction and then the Holy Mass. When the Catholics around the globe were preparing for the commemoration of the 2nd Millennium of the Birth of Christ, to take part in this commemoration as a Parish Community, along with the then Parish Priest Rev. Fr. Edward Ravelpulle the members of our society when through houses of the different zones of our church and consecrated many the families to the Sacred Heart of Jesus.<br><br>
            Not only in the spiritual work, the members of the society contribute to all other works in the church, both financially and from work.<br><br>
           
-        </p>
-        <div class="button">
-          
+          </p> 
         </div>
+       
       </div>
-    </div>
-    </div>
   </section>
 
 
